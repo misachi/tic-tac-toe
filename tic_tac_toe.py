@@ -60,7 +60,7 @@ def game_won():
             return True
     if (ndarray[0][0] == ndarray[1][1] and ndarray[1][1] == ndarray[2][2]) and ndarray[2][2] != DEFAULT_MARKER:
         return True
-    if (ndarray[2][0] == ndarray[1][1] and ndarray[1][1] == ndarray[1][2]) and ndarray[1][2] != DEFAULT_MARKER:
+    if (ndarray[2][0] == ndarray[1][1] and ndarray[1][1] == ndarray[0][2]) and ndarray[0][2] != DEFAULT_MARKER:
         return True
     return False
         
