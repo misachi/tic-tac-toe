@@ -50,7 +50,7 @@ def play(inp):
 
 def user_input():
     print('User %s to play' % current_player)
-    return input('Input(row,column): ')
+    return input('Input(1-9): ')
 
 def game_won():
     for i in range(length):
